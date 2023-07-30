@@ -6,8 +6,8 @@ class Rectangle:
     """class variable rectangle"""
     def __init__(self, width=0, height=0):
         """initialize width and height"""
-        self.__width = width
-        self.__height = height
+        self.width = width
+        self.height = height
 
     @property
     def width(self):
@@ -26,7 +26,7 @@ class Rectangle:
     @property
     def height(self):
         """return the value"""
-        return self.width
+        return self.__height
 
     @height.setter
     def height(self, value):
