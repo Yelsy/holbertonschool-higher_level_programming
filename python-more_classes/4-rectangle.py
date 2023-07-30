@@ -58,6 +58,6 @@ class Rectangle:
             if column < self.__height - 1:
                 sq += "\n"
         return sq
-    
+
     def __repr__(self):
         return "Rectangle({:d}, {:d})".format(self.__width, self.__height)
